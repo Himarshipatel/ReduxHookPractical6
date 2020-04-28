@@ -1,7 +1,7 @@
 import React from "react";
 
 function Producthunt() {
-  const url = "/product-hunt.png";
+  const url = "/italy.png";
 
   return (
     <div className="img">

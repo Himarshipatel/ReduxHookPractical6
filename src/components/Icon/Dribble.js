@@ -1,7 +1,7 @@
 import React from "react";
 
 function Dribbble() {
-  const url = "/dribbble.png";
+  const url = "/usa.png";
 
   return (
     <div className="img">

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Medium() {
-  const url = "/mediumimg.png";
+  const url = "/canada.png";
 
   return (
     <div className="img">

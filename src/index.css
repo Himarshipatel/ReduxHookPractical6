@@ -29,11 +29,12 @@ code {
 }
 .link {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 25px;
   font-size: 20px;
 }
 .log {
   display: inline-block;
+  margin-left: 10px;
 }
 .sidebar:hover {
   border-right: 1px solid lightgray;
@@ -49,4 +50,53 @@ code {
 .mainsidebardiv {
   border-right: 1px solid lightgray;
   width: 400px;
+  height: 770px;
+  overflow: hidden;
+  height: 770px;
+}
+.li {
+  list-style-type: none;
+}
+.apii {
+  margin-bottom: -120px;
+  margin-top: -780px;
+  margin-left: 340px;
+}
+
+.api {
+  border-bottom: 1px solid lightgrey;
+  width: 600px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.inner {
+  margin-top: 10px;
+  margin-left: 34px;
+  border-right: 1px solid lightgray;
+  overflow-y: scroll;
+  height: 770px;
+}
+.descriptionn {
+  color: gray;
+  font-size: 18px;
+  margin-left: 80px;
+}
+.number {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: rgb(236, 74, 10);
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.name {
+  display: inline-block;
+}
+.loading {
+  margin-top: 20px;
+  margin-left: 300px;
 }

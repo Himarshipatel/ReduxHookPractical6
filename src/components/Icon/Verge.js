@@ -1,7 +1,7 @@
 import React from "react";
 
 function Verge() {
-  const url = "/verge.png";
+  const url = "/china.png";
 
   return (
     <div className="img">

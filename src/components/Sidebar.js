@@ -10,6 +10,11 @@ import {
   Verge,
   Producthunt,
   Behance,
+  Github,
+  Sidebarlogo,
+  Reddit,
+  Singapore,
+  Mexico,
 } from "../components";
 
 const Sidebar = () => {
@@ -20,7 +25,7 @@ const Sidebar = () => {
           <Icon1 />
         </div>
         <div className="link">
-          <Link to="/home">Hacker News</Link>
+          <Link to="/india">India</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -28,7 +33,7 @@ const Sidebar = () => {
           <Icon2 />
         </div>
         <div className="link">
-          <Link to="/home">Designer News</Link>
+          <Link to="/australia">Australia</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -36,7 +41,7 @@ const Sidebar = () => {
           <Medium />
         </div>
         <div className="link">
-          <Link to="/home">Medium</Link>
+          <Link to="/canada">canada</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -44,7 +49,7 @@ const Sidebar = () => {
           <Dribble />
         </div>
         <div className="link">
-          <Link to="/home">Dribbble</Link>
+          <Link to="/usa">USA</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -52,7 +57,7 @@ const Sidebar = () => {
           <Icon />
         </div>
         <div className="link">
-          <Link to="/home">TechCrunch</Link>
+          <Link to="/germany">Germany</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -60,7 +65,7 @@ const Sidebar = () => {
           <Verge />
         </div>
         <div className="link">
-          <Link to="/home">The Verge</Link>
+          <Link to="/china">China</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -68,7 +73,7 @@ const Sidebar = () => {
           <Producthunt />
         </div>
         <div className="link">
-          <Link to="/home">Product Hunt</Link>
+          <Link to="/italy">Italy</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -76,47 +81,47 @@ const Sidebar = () => {
           <Behance />
         </div>
         <div className="link">
-          <Link to="/home">Behance</Link>
+          <Link to="/hongkong">Hong Kong</Link>
         </div>
       </div>
       <div className="sidebar">
         <div className="log">
-          <Icon />
+          <Github />
         </div>
         <div className="link">
-          <Link to="/home">Github</Link>
+          <Link to="/malaysia">Malaysia</Link>
         </div>
       </div>
       <div className="sidebar">
         <div className="log">
-          <Icon />
+          <Singapore />
         </div>
         <div className="link">
-          <Link to="/home">Awwwards</Link>
+          <Link to="/singapore">Singapore</Link>
         </div>
       </div>
       <div className="sidebar">
         <div className="log">
-          <Icon />
+          <Sidebarlogo />
         </div>
         <div className="link">
-          <Link to="/home">Sidebar</Link>
+          <Link to="/home">United Kingdom</Link>
         </div>
       </div>
       <div className="sidebar">
         <div className="log">
-          <Icon />
+          <Reddit />
         </div>
         <div className="link">
-          <Link to="/home">Reddit</Link>
+          <Link to="/home">Argentina</Link>
         </div>
       </div>
       <div className="sidebar">
         <div className="log">
-          <Icon />
+          <Mexico />
         </div>
         <div className="link">
-          <Link to="/home">Top News</Link>
+          <Link to="/home">Mexico</Link>
         </div>
       </div>
     </div>

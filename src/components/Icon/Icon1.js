@@ -1,7 +1,7 @@
 import React from "react";
 
 function Icon1() {
-  const url = "/hacker-news.png";
+  const url = "/India.png";
 
   return (
     <div className="img">

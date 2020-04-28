@@ -8,6 +8,11 @@ import Dribble from "./Icon/Dribble";
 import Verge from "./Icon/Verge";
 import Producthunt from "./Icon/Producthunt";
 import Behance from "./Icon/Behance";
+import Github from "./Icon/Github";
+import Sidebarlogo from "./Icon/Sidebarlogo";
+import Reddit from "./Icon/Reddit";
+import Singapore from "./Icon/Singapore";
+import Mexico from "./Icon/Mexico";
 
 export {
   Images,
@@ -20,4 +25,9 @@ export {
   Verge,
   Producthunt,
   Behance,
+  Github,
+  Sidebarlogo,
+  Reddit,
+  Singapore,
+  Mexico,
 };

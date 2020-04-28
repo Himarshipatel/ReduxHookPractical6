@@ -1,7 +1,7 @@
 import React from "react";
 
-function Behance() {
-  const url = "/hong-kong.png";
+function Sidebarlogo() {
+  const url = "/uk.png";
 
   return (
     <div className="img">
@@ -9,4 +9,4 @@ function Behance() {
     </div>
   );
 }
-export default Behance;
+export default Sidebarlogo;

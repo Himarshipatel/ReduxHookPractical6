@@ -1,13 +1,23 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
-import { Home, Home1, Home2, Home3 } from "./view/home";
-import { Images, Icon, Sidebar } from "./components";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import {
+  Home,
+  Australia,
+  Canada,
+  Usa,
+  Germany,
+  China,
+  Italy,
+  Hongkong,
+  Malaysia,
+  Singapore,
+} from "./view/home";
+import { Images, Sidebar } from "./components";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistore } from "./store";
 import { Navbar, ButtonToggle } from "reactstrap";
-import { Nav, NavItem, NavLink } from "reactstrap";
 
 const App = () => {
   return (
@@ -27,17 +37,26 @@ const App = () => {
               </ButtonToggle>{" "}
             </div>
           </Navbar>
-          <div className="mainsidebardiv">
-            <Sidebar />
+
+          <div className="main">
+            <div className="mainsidebardiv">
+              <Sidebar />
+            </div>
+            <Switch>
+              <div className="apii">
+                <Route path="/india" component={Home} />
+                <Route path="/australia" component={Australia} />
+                <Route path="/canada" component={Canada} />
+                <Route path="/usa" component={Usa} />
+                <Route path="/germany" component={Germany} />
+                <Route path="/china" component={China} />
+                <Route path="/italy" component={Italy} />
+                <Route path="/hongkong" component={Hongkong} />
+                <Route path="/malaysia" component={Malaysia} />
+                <Route path="/singapore" component={Singapore} />
+              </div>
+            </Switch>
           </div>
-          {/* <Link to="/home1">Home1</Link>
-          <Link to="/home2">Home2</Link> */}
-          <Switch>
-            <Route path="/home" component={Home} />
-            {/* <Route path="/home1" component={Home1} />
-            <Route path="/home2" component={Home2} /> */}
-            {/* <Route path="#content1" component={Home3} /> */}
-          </Switch>
         </BrowserRouter>
       </PersistGate>
     </Provider>

@@ -1,18 +1,17 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchStats } from "./action";
+import { italy } from "./action";
 // import { Images } from "../../components";
 import { Row } from "reactstrap";
 
-const Home = () => {
+const Italy = () => {
   const dispatch = useDispatch();
   const { loading, stats } = useSelector((state) => ({
     loading: state.HomeReducers.loading,
     stats: state.HomeReducers.stats,
   }));
-
   useEffect(() => {
-    dispatch(fetchStats());
+    dispatch(italy());
   }, [dispatch]);
 
   console.log(stats);
@@ -47,4 +46,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default Italy;

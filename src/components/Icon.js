@@ -1,8 +1,7 @@
 import React from "react";
 
 function Icon() {
-  const url =
-    "https://storage.googleapis.com/proudcity/alpha/uploads/2016/10/techcrunch.jpg";
+  const url = "/germany.png";
 
   return (
     <div className="img">

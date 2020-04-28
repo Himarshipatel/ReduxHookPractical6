@@ -1,7 +1,7 @@
 import React from "react";
 
 function Icon2() {
-  const url = "/designer-news.svg";
+  const url = "/australia.png";
 
   return (
     <div className="img">
