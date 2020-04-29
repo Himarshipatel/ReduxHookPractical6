@@ -161,3 +161,51 @@ export const singapore = () => {
       });
   };
 };
+export const uk = () => {
+  return (dispatch) => {
+    dispatch({ type: "COUNTRIES_FETCH_PENDING" });
+
+    axios
+      .get(
+        "http://newsapi.org/v2/top-headlines?country=gb&apiKey=39e0901ffcc3452faf07ada3c1f7f326"
+      )
+      .then((res) => {
+        dispatch({ type: "COUNTRIES_FETCH_SUCCESS", stats: res.data });
+      })
+      .catch((error) => {
+        dispatch({ type: "COUNTRIES_FETCH_FAILURE", message: error.response });
+      });
+  };
+};
+export const argentina = () => {
+  return (dispatch) => {
+    dispatch({ type: "COUNTRIES_FETCH_PENDING" });
+
+    axios
+      .get(
+        "http://newsapi.org/v2/top-headlines?country=ar&apiKey=39e0901ffcc3452faf07ada3c1f7f326"
+      )
+      .then((res) => {
+        dispatch({ type: "COUNTRIES_FETCH_SUCCESS", stats: res.data });
+      })
+      .catch((error) => {
+        dispatch({ type: "COUNTRIES_FETCH_FAILURE", message: error.response });
+      });
+  };
+};
+export const mexico = () => {
+  return (dispatch) => {
+    dispatch({ type: "COUNTRIES_FETCH_PENDING" });
+
+    axios
+      .get(
+        "http://newsapi.org/v2/top-headlines?country=mx&apiKey=39e0901ffcc3452faf07ada3c1f7f326"
+      )
+      .then((res) => {
+        dispatch({ type: "COUNTRIES_FETCH_SUCCESS", stats: res.data });
+      })
+      .catch((error) => {
+        dispatch({ type: "COUNTRIES_FETCH_FAILURE", message: error.response });
+      });
+  };
+};

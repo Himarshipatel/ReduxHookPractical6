@@ -8,6 +8,9 @@ import Italy from "./Italy";
 import Hongkong from "./Hongkong";
 import Malaysia from "./Malaysia";
 import Singapore from "./Singapore";
+import Uk from "./Uk";
+import Argentina from "./Argentina";
+import Mexicoo from "./Mexicoo";
 
 export {
   Home,
@@ -20,4 +23,7 @@ export {
   Hongkong,
   Malaysia,
   Singapore,
+  Uk,
+  Argentina,
+  Mexicoo,
 };

@@ -35,11 +35,17 @@ const Usa = () => {
                         <div className="descriptionn">
                           {article.description}
                         </div>
+                        <div className="readmore">
+                          <a href={article.url} target="show1">
+                            Read more
+                          </a>
+                        </div>
                       </div>
                     </li>
                   ))}
                 </ul>
               </div>
+              <iframe src="" name="show1" className="iframe"></iframe>
             </Row>
           )}
         </>

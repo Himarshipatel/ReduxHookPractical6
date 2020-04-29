@@ -105,7 +105,7 @@ const Sidebar = () => {
           <Sidebarlogo />
         </div>
         <div className="link">
-          <Link to="/home">United Kingdom</Link>
+          <Link to="/uk">United Kingdom</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -113,7 +113,7 @@ const Sidebar = () => {
           <Reddit />
         </div>
         <div className="link">
-          <Link to="/home">Argentina</Link>
+          <Link to="/argentina">Argentina</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -121,7 +121,7 @@ const Sidebar = () => {
           <Mexico />
         </div>
         <div className="link">
-          <Link to="/home">Mexico</Link>
+          <Link to="/mexico">Mexico</Link>
         </div>
       </div>
     </div>

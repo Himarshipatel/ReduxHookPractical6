@@ -12,6 +12,9 @@ import {
   Hongkong,
   Malaysia,
   Singapore,
+  Uk,
+  Argentina,
+  Mexicoo,
 } from "./view/home";
 import { Images, Sidebar } from "./components";
 import { Provider } from "react-redux";
@@ -54,6 +57,9 @@ const App = () => {
                 <Route path="/hongkong" component={Hongkong} />
                 <Route path="/malaysia" component={Malaysia} />
                 <Route path="/singapore" component={Singapore} />
+                <Route path="/uk" component={Uk} />
+                <Route path="/argentina" component={Argentina} />
+                <Route path="/mexico" component={Mexicoo} />
               </div>
             </Switch>
           </div>
