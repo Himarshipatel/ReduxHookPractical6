@@ -16,8 +16,7 @@ import {
   Singapore,
   Mexico,
 } from "../components";
-// const Sidebar = ({ match }) => <p>{match.params.id}</p>;
-// //const { url } = this.props.match
+
 const Sidebar = () => {
   return (
     <div>
@@ -26,7 +25,7 @@ const Sidebar = () => {
           <Icon1 />
         </div>
         <div className="link">
-          <Link to="/country/india">India</Link>
+          <Link to="/country/in">India</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -34,7 +33,7 @@ const Sidebar = () => {
           <Icon2 />
         </div>
         <div className="link">
-          <Link to="/australia">Australia</Link>
+          <Link to="/country/au">Australia</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -42,7 +41,7 @@ const Sidebar = () => {
           <Medium />
         </div>
         <div className="link">
-          <Link to="/canada">canada</Link>
+          <Link to="/country/ca">canada</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -50,7 +49,7 @@ const Sidebar = () => {
           <Dribble />
         </div>
         <div className="link">
-          <Link to="/usa">USA</Link>
+          <Link to="/country/us">USA</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -58,7 +57,7 @@ const Sidebar = () => {
           <Icon />
         </div>
         <div className="link">
-          <Link to="/germany">Germany</Link>
+          <Link to="/country/de">Germany</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -66,7 +65,7 @@ const Sidebar = () => {
           <Verge />
         </div>
         <div className="link">
-          <Link to="/china">China</Link>
+          <Link to="/country/cn">China</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -74,7 +73,7 @@ const Sidebar = () => {
           <Producthunt />
         </div>
         <div className="link">
-          <Link to="/italy">Italy</Link>
+          <Link to="/country/it">Italy</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -82,7 +81,7 @@ const Sidebar = () => {
           <Behance />
         </div>
         <div className="link">
-          <Link to="/hongkong">Hong Kong</Link>
+          <Link to="/country/hk">Hong Kong</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -90,7 +89,7 @@ const Sidebar = () => {
           <Github />
         </div>
         <div className="link">
-          <Link to="/malaysia">Malaysia</Link>
+          <Link to="/country/my">Malaysia</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -98,7 +97,7 @@ const Sidebar = () => {
           <Singapore />
         </div>
         <div className="link">
-          <Link to="/singapore">Singapore</Link>
+          <Link to="/country/sg">Singapore</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -106,7 +105,7 @@ const Sidebar = () => {
           <Sidebarlogo />
         </div>
         <div className="link">
-          <Link to="/uk">United Kingdom</Link>
+          <Link to="/country/gb">United Kingdom</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -114,7 +113,7 @@ const Sidebar = () => {
           <Reddit />
         </div>
         <div className="link">
-          <Link to="/argentina">Argentina</Link>
+          <Link to="/country/ar">Argentina</Link>
         </div>
       </div>
       <div className="sidebar">
@@ -122,7 +121,7 @@ const Sidebar = () => {
           <Mexico />
         </div>
         <div className="link">
-          <Link to="/mexico">Mexico</Link>
+          <Link to="/country/mx">Mexico</Link>
         </div>
       </div>
     </div>

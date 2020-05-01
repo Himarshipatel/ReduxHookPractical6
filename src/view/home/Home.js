@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { country } from "./action";
-// import { Images } from "../../components";
 import { Row } from "reactstrap";
 import { useParams } from "react-router-dom";
 
 const Home = () => {
+  const { id } = useParams();
   const dispatch = useDispatch();
   const { loading, stats } = useSelector((state) => ({
     loading: state.HomeReducers.loading,
@@ -13,11 +13,11 @@ const Home = () => {
   }));
 
   useEffect(() => {
-    dispatch(country("in"));
-  }, [dispatch]);
+    dispatch(country(id));
+  }, [dispatch, id]);
 
   console.log(stats);
-  let { id } = useParams();
+
   return (
     <>
       {loading ? (
