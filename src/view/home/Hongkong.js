@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { hongkong } from "./action";
+import { country } from "./action";
 // import { Images } from "../../components";
 import { Row } from "reactstrap";
 
@@ -12,7 +12,7 @@ const Hongkong = () => {
   }));
 
   useEffect(() => {
-    dispatch(hongkong());
+    dispatch(country("hk"));
   }, [dispatch]);
 
   console.log(stats);

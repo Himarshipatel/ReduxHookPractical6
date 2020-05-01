@@ -16,7 +16,8 @@ import {
   Singapore,
   Mexico,
 } from "../components";
-
+// const Sidebar = ({ match }) => <p>{match.params.id}</p>;
+// //const { url } = this.props.match
 const Sidebar = () => {
   return (
     <div>
@@ -25,7 +26,7 @@ const Sidebar = () => {
           <Icon1 />
         </div>
         <div className="link">
-          <Link to="/india">India</Link>
+          <Link to="/country/india">India</Link>
         </div>
       </div>
       <div className="sidebar">

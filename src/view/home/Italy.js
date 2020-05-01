@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { italy } from "./action";
+import { country } from "./action";
 // import { Images } from "../../components";
 import { Row } from "reactstrap";
 
@@ -11,7 +11,7 @@ const Italy = () => {
     stats: state.HomeReducers.stats,
   }));
   useEffect(() => {
-    dispatch(italy());
+    dispatch(country("it"));
   }, [dispatch]);
 
   console.log(stats);

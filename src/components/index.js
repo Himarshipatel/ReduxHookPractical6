@@ -13,6 +13,7 @@ import Sidebarlogo from "./Icon/Sidebarlogo";
 import Reddit from "./Icon/Reddit";
 import Singapore from "./Icon/Singapore";
 import Mexico from "./Icon/Mexico";
+import Header from "./Header";
 
 export {
   Images,
@@ -30,4 +31,5 @@ export {
   Reddit,
   Singapore,
   Mexico,
+  Header,
 };

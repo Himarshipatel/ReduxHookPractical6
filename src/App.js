@@ -16,38 +16,28 @@ import {
   Argentina,
   Mexicoo,
 } from "./view/home";
-import { Images, Sidebar } from "./components";
+import { Sidebar, Header } from "./components";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistore } from "./store";
-import { Navbar, ButtonToggle } from "reactstrap";
 
 const App = () => {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistore}>
         <BrowserRouter>
-          <Navbar className="header">
-            <Images />
-            <div className="title">Panda</div>
-            <div className="button">
-              <ButtonToggle color="secondary" size="lg" disabled>
-                Sign Up
-              </ButtonToggle>
-              {"  "}
-              <ButtonToggle color="success" size="lg">
-                Log In
-              </ButtonToggle>{" "}
-            </div>
-          </Navbar>
-
+          <Header />
           <div className="main">
             <div className="mainsidebardiv">
               <Sidebar />
             </div>
+
             <Switch>
               <div className="apii">
-                <Route path="/india" component={Home} />
+                <Route path="/country/:id">
+                  <Home />
+                </Route>
+                {/* <Route path="/india" component={Home} /> */}
                 <Route path="/australia" component={Australia} />
                 <Route path="/canada" component={Canada} />
                 <Route path="/usa" component={Usa} />

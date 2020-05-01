@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchStats } from "./action";
+import { country } from "./action";
 // import { Images } from "../../components";
 import { Row } from "reactstrap";
+import { useParams } from "react-router-dom";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -12,10 +13,11 @@ const Home = () => {
   }));
 
   useEffect(() => {
-    dispatch(fetchStats());
+    dispatch(country("in"));
   }, [dispatch]);
 
   console.log(stats);
+  let { id } = useParams();
   return (
     <>
       {loading ? (
